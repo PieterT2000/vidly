@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  margin-top: 30px;
+}
+.clickable {
+  cursor: pointer;
+}
+
+/* custom navbar styles */
+.navbar-nav.custom-align {
+  margin-right: auto;
+  flex-direction: row;
+  padding-left: 10px;
+}
+
+.navbar-nav.custom-align .nav-link {
+  padding-right: 15px;
+}
